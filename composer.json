@@ -1,0 +1,14 @@
+{
+    "name": "homebase/lib.composer",
+    "description": "Composer-Controlled external packages for homebase",
+    "authors": [
+        {
+            "name": "Sergey Porfiriev",
+            "email": "parf@comfi.com"
+        }
+    ],
+    "require": {
+       "twig/twig": "1.*",
+       "leeoniya/dump-r": "dev-master"
+    }
+}
