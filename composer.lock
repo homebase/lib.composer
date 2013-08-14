@@ -1,4 +1,8 @@
 {
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
     "hash": "a6c654dffb96a560b50bb6f5e327b0db",
     "packages": [
         {
@@ -6,19 +10,21 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/leeoniya/dump_r.php",
-                "reference": "d43984259f536f38a8e072e1922bee3f615f52b0"
+                "url": "https://github.com/leeoniya/dump_r.php.git",
+                "reference": "fdec685891c63b7a48f1286a43f9b7349cbf5601"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/leeoniya/dump_r.php/archive/d43984259f536f38a8e072e1922bee3f615f52b0.zip",
-                "reference": "d43984259f536f38a8e072e1922bee3f615f52b0",
+                "url": "https://api.github.com/repos/leeoniya/dump_r.php/zipball/fdec685891c63b7a48f1286a43f9b7349cbf5601",
+                "reference": "fdec685891c63b7a48f1286a43f9b7349cbf5601",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
-            "time": "2013-01-08 08:15:42",
+            "suggest": {
+                "jdorn/sql-formatter": "Pretty-print dumped SQL strings"
+            },
             "type": "library",
             "autoload": {
                 "files": [
@@ -40,7 +46,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "a cleaner, leaner mix of print_r() and var_dump() for the browser",
+            "description": "a cleaner, leaner mix of print_r() and var_dump()",
             "homepage": "https://github.com/leeoniya/dump_r.php",
             "keywords": [
                 "debug",
@@ -49,30 +55,30 @@
                 "print",
                 "print_r",
                 "var_dump"
-            ]
+            ],
+            "time": "2013-05-05 07:53:39"
         },
         {
             "name": "twig/twig",
-            "version": "v1.12.0",
+            "version": "v1.13.2",
             "source": {
                 "type": "git",
-                "url": "git://github.com/fabpot/Twig.git",
-                "reference": "v1.12.0"
+                "url": "https://github.com/fabpot/Twig.git",
+                "reference": "v1.13.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Twig/archive/v1.12.0.zip",
-                "reference": "v1.12.0",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/v1.13.2",
+                "reference": "v1.13.2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "2013-01-08 13:42:43",
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -82,7 +88,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-3"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -98,15 +104,24 @@
             "homepage": "http://twig.sensiolabs.org",
             "keywords": [
                 "templating"
-            ]
+            ],
+            "time": "2013-08-03 15:35:31"
         }
     ],
-    "packages-dev": null,
+    "packages-dev": [
+
+    ],
     "aliases": [
 
     ],
     "minimum-stability": "stable",
     "stability-flags": {
         "leeoniya/dump-r": 20
-    }
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
 }
