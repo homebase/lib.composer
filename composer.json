@@ -9,6 +9,7 @@
     ],
     "require": {
        "twig/twig": "1.*",
-       "leeoniya/dump-r": "dev-master"
+       "leeoniya/dump-r": "dev-master",
+       "mobiledetect/mobiledetectlib": "dev-master"
     }
 }
