@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "e585a6244b1ebe6192fabf443e7a0d3a",
+    "hash": "da67350be406ccfec64788087f05f6dd",
     "packages": [
         {
             "name": "basho/riak",
@@ -96,17 +97,62 @@
             "time": "2013-11-19 23:11:14"
         },
         {
+            "name": "google/apiclient",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/google/google-api-php-client.git",
+                "reference": "a88dcec6833ac2de4798c13a24abe30c90feb057"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/a88dcec6833ac2de4798c13a24abe30c90feb057",
+                "reference": "a88dcec6833ac2de4798c13a24abe30c90feb057",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "src/"
+            ],
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Client library for Google APIs",
+            "homepage": "http://developers.google.com/api-client-library/php",
+            "keywords": [
+                "google"
+            ],
+            "time": "2014-06-14 07:10:57"
+        },
+        {
             "name": "leeoniya/dump-r",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/leeoniya/dump_r.php.git",
-                "reference": "fdec685891c63b7a48f1286a43f9b7349cbf5601"
+                "reference": "7f96104bc1b34c0a6d534a6175d2fd1ae4573e7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leeoniya/dump_r.php/zipball/fdec685891c63b7a48f1286a43f9b7349cbf5601",
-                "reference": "fdec685891c63b7a48f1286a43f9b7349cbf5601",
+                "url": "https://api.github.com/repos/leeoniya/dump_r.php/zipball/7f96104bc1b34c0a6d534a6175d2fd1ae4573e7d",
+                "reference": "7f96104bc1b34c0a6d534a6175d2fd1ae4573e7d",
                 "shasum": ""
             },
             "require": {
@@ -146,7 +192,7 @@
                 "print_r",
                 "var_dump"
             ],
-            "time": "2013-05-05 07:53:39"
+            "time": "2014-05-07 18:19:19"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -154,12 +200,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/serbanghita/Mobile-Detect.git",
-                "reference": "9ce42e3ce2fe0832ca9e3bc8a84367c016e0f89e"
+                "reference": "ce850be2d9c46a35cca25c171f904269817a0919"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/9ce42e3ce2fe0832ca9e3bc8a84367c016e0f89e",
-                "reference": "9ce42e3ce2fe0832ca9e3bc8a84367c016e0f89e",
+                "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/ce850be2d9c46a35cca25c171f904269817a0919",
+                "reference": "ce850be2d9c46a35cca25c171f904269817a0919",
                 "shasum": ""
             },
             "require": {
@@ -198,20 +244,20 @@
                 "mobile detector",
                 "php mobile detect"
             ],
-            "time": "2014-02-05 18:09:26"
+            "time": "2014-06-04 14:22:48"
         },
         {
             "name": "twig/twig",
-            "version": "v1.15.0",
+            "version": "v1.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "85e4ff98000157ff753d934b9f13659a953f5666"
+                "reference": "1fb5784662f438d7d96a541e305e28b812e2eeed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/85e4ff98000157ff753d934b9f13659a953f5666",
-                "reference": "85e4ff98000157ff753d934b9f13659a953f5666",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/1fb5784662f438d7d96a541e305e28b812e2eeed",
+                "reference": "1fb5784662f438d7d96a541e305e28b812e2eeed",
                 "shasum": ""
             },
             "require": {
@@ -235,11 +281,19 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Armin Ronacher",
-                    "email": "armin.ronacher@active-4.com"
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "https://github.com/fabpot/Twig/graphs/contributors",
+                    "role": "Contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
@@ -247,7 +301,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-12-06 07:47:10"
+            "time": "2014-02-13 10:19:29"
         }
     ],
     "packages-dev": [
@@ -260,7 +314,8 @@
     "stability-flags": {
         "leeoniya/dump-r": 20,
         "mobiledetect/mobiledetectlib": 20,
-        "basho/riak": 20
+        "basho/riak": 20,
+        "google/apiclient": 20
     },
     "platform": [
 

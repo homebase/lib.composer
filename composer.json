@@ -12,6 +12,7 @@
        "leeoniya/dump-r": "dev-master",
        "mobiledetect/mobiledetectlib": "dev-master",
        "facebook/php-sdk" : "*",
-        "basho/riak": "dev-php55"
+       "basho/riak": "dev-php55",
+       "google/apiclient": "dev-master"
     }
 }
