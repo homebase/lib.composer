@@ -13,6 +13,7 @@
        "mobiledetect/mobiledetectlib": "dev-master",
        "facebook/php-sdk" : "*",
        "basho/riak": "dev-php55",
-       "google/apiclient": "dev-master"
+       "google/apiclient": "dev-master",
+       "anahkiasen/underscore-php" : "dev-master"
     }
 }

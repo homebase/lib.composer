@@ -4,8 +4,54 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "da67350be406ccfec64788087f05f6dd",
+    "hash": "e282c740f68784048e9f701e4c71507c",
     "packages": [
+        {
+            "name": "anahkiasen/underscore-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Anahkiasen/underscore-php.git",
+                "reference": "f310aea3006d812160f57c04fc8a78062de694a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Anahkiasen/underscore-php/zipball/f310aea3006d812160f57c04fc8a78062de694a2",
+                "reference": "f310aea3006d812160f57c04fc8a78062de694a2",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~4",
+                "patchwork/utf8": "1.1.*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Underscore\\": [
+                        "src",
+                        "tests"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maxime Fabre",
+                    "email": "ehtnam6@gmail.com"
+                }
+            ],
+            "description": "A redacted port of Underscore.js for PHP",
+            "keywords": [
+                "internals",
+                "laravel",
+                "toolkit"
+            ],
+            "time": "2014-10-04 13:56:59"
+        },
         {
             "name": "basho/riak",
             "version": "dev-php55",
@@ -102,12 +148,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/google-api-php-client.git",
-                "reference": "a88dcec6833ac2de4798c13a24abe30c90feb057"
+                "reference": "da8d899c200cab326db9918e13ee1aede347bb1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/a88dcec6833ac2de4798c13a24abe30c90feb057",
-                "reference": "a88dcec6833ac2de4798c13a24abe30c90feb057",
+                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/da8d899c200cab326db9918e13ee1aede347bb1f",
+                "reference": "da8d899c200cab326db9918e13ee1aede347bb1f",
                 "shasum": ""
             },
             "require": {
@@ -119,7 +165,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -128,9 +174,6 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                "src/"
-            ],
             "license": [
                 "Apache-2.0"
             ],
@@ -139,7 +182,55 @@
             "keywords": [
                 "google"
             ],
-            "time": "2014-06-14 07:10:57"
+            "time": "2014-10-10 09:22:23"
+        },
+        {
+            "name": "illuminate/support",
+            "version": "v4.2.9",
+            "target-dir": "Illuminate/Support",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/support.git",
+                "reference": "b6716d34afce6e69523725f2534a5c3a54dba964"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/b6716d34afce6e69523725f2534a5c3a54dba964",
+                "reference": "b6716d34afce6e69523725f2534a5c3a54dba964",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "jeremeamia/superclosure": "~1.0",
+                "patchwork/utf8": "1.1.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Illuminate\\Support": ""
+                },
+                "files": [
+                    "Illuminate/Support/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "time": "2014-09-12 21:42:43"
         },
         {
             "name": "leeoniya/dump-r",
@@ -200,12 +291,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/serbanghita/Mobile-Detect.git",
-                "reference": "ce850be2d9c46a35cca25c171f904269817a0919"
+                "reference": "c80ab834272af44babfee2bbc483565592854e13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/ce850be2d9c46a35cca25c171f904269817a0919",
-                "reference": "ce850be2d9c46a35cca25c171f904269817a0919",
+                "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/c80ab834272af44babfee2bbc483565592854e13",
+                "reference": "c80ab834272af44babfee2bbc483565592854e13",
                 "shasum": ""
             },
             "require": {
@@ -244,20 +335,76 @@
                 "mobile detector",
                 "php mobile detect"
             ],
-            "time": "2014-06-04 14:22:48"
+            "time": "2014-08-29 07:01:55"
         },
         {
-            "name": "twig/twig",
-            "version": "v1.15.1",
+            "name": "patchwork/utf8",
+            "version": "v1.1.25",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fabpot/Twig.git",
-                "reference": "1fb5784662f438d7d96a541e305e28b812e2eeed"
+                "url": "https://github.com/nicolas-grekas/Patchwork-UTF8.git",
+                "reference": "2d43bd047b120279511d45e76e61c5a9812d9a83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/1fb5784662f438d7d96a541e305e28b812e2eeed",
-                "reference": "1fb5784662f438d7d96a541e305e28b812e2eeed",
+                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/2d43bd047b120279511d45e76e61c5a9812d9a83",
+                "reference": "2d43bd047b120279511d45e76e61c5a9812d9a83",
+                "shasum": ""
+            },
+            "require": {
+                "lib-pcre": ">=7.3",
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "ext-iconv": "Use iconv for best performance",
+                "ext-intl": "Use Intl for best performance",
+                "ext-mbstring": "Use Mbstring for best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Patchwork": "class/",
+                    "Normalizer": "class/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "(Apache-2.0 or GPL-2.0)"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Extensive, portable and performant handling of UTF-8 and grapheme clusters for PHP",
+            "homepage": "https://github.com/nicolas-grekas/Patchwork-UTF8",
+            "keywords": [
+                "i18n",
+                "unicode",
+                "utf-8",
+                "utf8"
+            ],
+            "time": "2014-08-05 08:00:32"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.16.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fabpot/Twig.git",
+                "reference": "7c4c01dcf578523cfcddf383641a4f12790270ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/7c4c01dcf578523cfcddf383641a4f12790270ec",
+                "reference": "7c4c01dcf578523cfcddf383641a4f12790270ec",
                 "shasum": ""
             },
             "require": {
@@ -266,7 +413,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.16-dev"
                 }
             },
             "autoload": {
@@ -301,26 +448,20 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2014-02-13 10:19:29"
+            "time": "2014-10-10 14:09:53"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "leeoniya/dump-r": 20,
         "mobiledetect/mobiledetectlib": 20,
         "basho/riak": 20,
-        "google/apiclient": 20
+        "google/apiclient": 20,
+        "anahkiasen/underscore-php": 20
     },
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
 }
