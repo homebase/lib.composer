@@ -17,6 +17,7 @@
        "anahkiasen/underscore-php" : "dev-master",
        "elasticsearch/elasticsearch": "~1.0",
        "mnapoli/php-di": "~4.0",
-       "psr/log": "1.0.*@dev"
+       "psr/log": "1.0.*@dev",
+       "nazar-pc/bananahtml": "*"
     }
 }
