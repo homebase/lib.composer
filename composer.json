@@ -11,7 +11,7 @@
        "twig/twig": "1.*",
        "mobiledetect/mobiledetectlib": "dev-master",
        "facebook/php-sdk" : "*",
-       "basho/riak": "dev-php55",
+       "basho/riak": "2.0.*",
        "google/apiclient": "dev-master",
        "anahkiasen/underscore-php" : "dev-master",
        "elasticsearch/elasticsearch": "~1.0",
