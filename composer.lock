@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "398e1fa360a27f87e3d0409dfddb4b37",
+    "hash": "02bd9c377f64200a976da8ec11a59986",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -58,25 +58,32 @@
         },
         {
             "name": "basho/riak",
-            "version": "dev-php55",
+            "version": "v2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/basho/riak-php-client.git",
-                "reference": "930ed4176b13231a71da094047cb40ad186de991"
+                "reference": "eebe15ccb477047aad6b25a8bf74b691bde72fc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/basho/riak-php-client/zipball/930ed4176b13231a71da094047cb40ad186de991",
-                "reference": "930ed4176b13231a71da094047cb40ad186de991",
+                "url": "https://api.github.com/repos/basho/riak-php-client/zipball/eebe15ccb477047aad6b25a8bf74b691bde72fc0",
+                "reference": "eebe15ccb477047aad6b25a8bf74b691bde72fc0",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.24"
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "apigen/apigen": "4.1.*",
+                "basho/tools": "1.0.0",
+                "phpunit/phpunit": "4.5.*"
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Basho": "src/"
+                "psr-4": {
+                    "Basho\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -85,20 +92,33 @@
             ],
             "authors": [
                 {
-                    "name": "Riak Team",
-                    "homepage": "https://github.com/basho/riak-php-client/contributors"
+                    "name": "Christopher Mancini",
+                    "email": "cmancini@basho.com",
+                    "homepage": "https://github.com/christophermancini",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Alex Moore",
+                    "email": "amoore@basho.com",
+                    "homepage": "https://github.com/alexmoore",
+                    "role": "Developer"
                 }
             ],
-            "description": "Official Riak PHP client for PHP 5.5",
+            "description": "Official Riak client for PHP",
             "homepage": "http://basho.com/riak/",
             "keywords": [
+                "basho",
                 "client",
+                "crdt",
+                "data",
                 "database",
+                "datatype",
                 "driver",
+                "kv",
                 "nosql",
                 "riak"
             ],
-            "time": "2014-02-03 12:54:03"
+            "time": "2015-05-29 19:21:06"
         },
         {
             "name": "container-interop/container-interop",
@@ -1370,16 +1390,16 @@
         },
         {
             "name": "zendframework/zend-stdlib",
-            "version": "2.5.2",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-stdlib.git",
-                "reference": "2e50c4e8f8d0ab928aa5beeb21644f30bf2cc8bf"
+                "reference": "a35758803fc9051ec1aff43989e679b6b451b1b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/2e50c4e8f8d0ab928aa5beeb21644f30bf2cc8bf",
-                "reference": "2e50c4e8f8d0ab928aa5beeb21644f30bf2cc8bf",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/a35758803fc9051ec1aff43989e679b6b451b1b4",
+                "reference": "a35758803fc9051ec1aff43989e679b6b451b1b4",
                 "shasum": ""
             },
             "require": {
@@ -1404,8 +1424,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev",
-                    "dev-develop": "2.6-dev"
+                    "dev-master": "2.6-dev",
+                    "dev-develop": "2.7-dev"
                 }
             },
             "autoload": {
@@ -1422,7 +1442,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2015-07-21 14:59:49"
+            "time": "2015-07-21 17:08:05"
         }
     ],
     "packages-dev": [],
@@ -1430,7 +1450,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "mobiledetect/mobiledetectlib": 20,
-        "basho/riak": 20,
         "google/apiclient": 20,
         "anahkiasen/underscore-php": 20,
         "psr/log": 20
