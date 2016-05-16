@@ -11,13 +11,14 @@
        "twig/twig": "1.*",
        "mobiledetect/mobiledetectlib": "dev-master",
        "facebook/php-sdk" : "*",
-       "basho/riak": "2.0.*",
+       "basho/riak": "1.4.*",
        "google/apiclient": "dev-master",
        "anahkiasen/underscore-php" : "dev-master",
        "elasticsearch/elasticsearch": "~1.0",
        "mnapoli/php-di": "~4.0",
        "psr/log": "1.0.*@dev",
         "symfony/var-dumper": "^2.7",
-        "stripe/stripe-php": "^3.6"
+        "stripe/stripe-php": "^3.6",
+        "goat1000/svggraph": "^2.22"
     }
 }
