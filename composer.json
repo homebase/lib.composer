@@ -17,9 +17,10 @@
        "elasticsearch/elasticsearch": "~1.0",
        "mnapoli/php-di": "~4.0",
        "psr/log": "1.0.*@dev",
-        "symfony/var-dumper": "^2.7",
-        "stripe/stripe-php": "^3.6",
-        "goat1000/svggraph": "^2.22",
-        "danielstjules/stringy": "~2.3"
+       "symfony/var-dumper": "^2.7",
+       "stripe/stripe-php": "^3.6",
+       "goat1000/svggraph": "^2.22",
+       "danielstjules/stringy": "~2.3",
+       "mongodb/mongodb": "^1.0.0"
     }
 }
