@@ -10,7 +10,7 @@
     "require": {
        "twig/twig": "1.*",
        "mobiledetect/mobiledetectlib": "dev-master",
-       "facebook/php-sdk" : "*",
+       "facebook/graph-sdk" : "*",
        "basho/riak": "1.4.*",
        "google/apiclient": "dev-master",
        "anahkiasen/underscore-php" : "dev-master",
