@@ -22,6 +22,9 @@
        "goat1000/svggraph": "^2.22",
        "danielstjules/stringy": "~2.3",
        "mongodb/mongodb": "^1.0.0",
-       "unreal4u/telegram-api": "~3.0"
+       "symfony/dom-crawler": "v3.3.2",
+       "symfony/css-selector": "v3.3.2",
+       "symfony/polyfill-mbstring": "v1.4.0",
+       "square/connect": "2.1.*"
     }
 }
