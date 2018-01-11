@@ -25,7 +25,6 @@
        "symfony/dom-crawler": "v3.3.2",
        "symfony/css-selector": "v3.3.2",
        "symfony/polyfill-mbstring": "v1.4.0",
-       "square/connect": "2.1.*",
-       "wp-cloud/phpmemcacheadmin": "^1.2"
+       "square/connect": "2.1.*"
     }
 }
