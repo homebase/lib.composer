@@ -19,7 +19,7 @@
        "psr/log": "1.0.*@dev",
        "symfony/var-dumper": "^2.7",
        "stripe/stripe-php": "^3.6",
-       "goat1000/svggraph": "^2.22",
+       "goat1000/svggraph": "2.*",
        "danielstjules/stringy": "~2.3",
        "mongodb/mongodb": "^1.0.0",
        "symfony/dom-crawler": "v3.3.2",
