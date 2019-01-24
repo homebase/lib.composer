@@ -26,6 +26,7 @@
        "symfony/css-selector": "v3.3.2",
        "symfony/polyfill-mbstring": "v1.4.0",
        "lcobucci/jwt": "3.1.0",
-       "square/connect": "*"
+       "square/connect": "*",
+       "facebook/webdriver": "^1.6"
     }
 }
