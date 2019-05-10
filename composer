@@ -1,2 +1,2 @@
 #!/bin/sh
-php -d apc.enable_cli=0 ./composer.phar $*
+php -d apc.enable_cli=0 -d allow_url_fopen=yes ./composer.phar $*
