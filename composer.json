@@ -14,7 +14,7 @@
        "basho/riak": "1.4.*",
        "google/apiclient": "dev-master",
        "anahkiasen/underscore-php" : "dev-master",
-       "elasticsearch/elasticsearch": "~1.0",
+       "elasticsearch/elasticsearch": "^7.0",
        "mnapoli/php-di": "~4.0",
        "psr/log": "1.0.*@dev",
        "symfony/var-dumper": "^2.7",
@@ -27,6 +27,9 @@
        "symfony/polyfill-mbstring": "v1.4.0",
        "lcobucci/jwt": "3.1.0",
        "square/connect": "*",
-       "facebook/webdriver": "^1.6"
+       "facebook/webdriver": "^1.6",
+        
+        "guzzle/guzzle": "~3.0",
+        "pimple/pimple": "~3.0"
     }
 }
