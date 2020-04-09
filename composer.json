@@ -27,9 +27,10 @@
        "symfony/polyfill-mbstring": "v1.4.0",
        "lcobucci/jwt": "3.1.0",
        "square/connect": "*",
-       "facebook/webdriver": "^1.6",
+       "facebook/webdriver": "^1.7.1",
         
         "guzzle/guzzle": "~3.0",
-        "pimple/pimple": "~3.0"
+        "pimple/pimple": "~3.0",
+        "kint-php/kint": "~3.3"
     }
 }
