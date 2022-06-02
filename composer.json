@@ -29,6 +29,7 @@
         "kint-php/kint": "~3.3",
 
         "authorizenet/authorizenet": ">=2.0.0",
-        "php-webdriver/webdriver": "dev-main"
+        "php-webdriver/webdriver": "dev-main",
+        "facebook/graph-sdk" : "*"
     }
 }
