@@ -9,7 +9,7 @@
     ],
     "require": {
         "twig/twig": "1.*",
-        "mobiledetect/mobiledetectlib": "dev-master",
+        "mobiledetect/mobiledetectlib": "3.*",
         "basho/riak": "1.4.*",
         "google/apiclient": "dev-main",
         "anahkiasen/underscore-php" : "dev-master",
