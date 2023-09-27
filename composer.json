@@ -27,6 +27,8 @@
         "guzzle/guzzle": "~3.0",
         "pimple/pimple": "~3.0",
         "kint-php/kint": "~3.3",
+        "symfony/dom-crawler": "^6.0",
+        "symfony/css-selector": "^6.0",
 
         "authorizenet/authorizenet": ">=2.0.0",
         "php-webdriver/webdriver": "dev-main",
