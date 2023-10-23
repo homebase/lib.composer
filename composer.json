@@ -30,6 +30,7 @@
 
         "authorizenet/authorizenet": ">=2.0.0",
         "php-webdriver/webdriver": "dev-main",
-        "markroland/converge-api-php": "^1.2"
+        "markroland/converge-api-php": "^1.2",
+        "sentry/sdk": "^3.5"
     }
 }
