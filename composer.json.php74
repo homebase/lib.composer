@@ -9,10 +9,10 @@
     ],
     "require": {
         "twig/twig": "1.*",
-        "mobiledetect/mobiledetectlib": "dev-master",
+        "mobiledetect/mobiledetectlib": "^3.7",
         "facebook/graph-sdk" : "*",
         "basho/riak": "1.4.*",
-        "google/apiclient": "dev-master",
+        "google/apiclient": "dev-main",
         "anahkiasen/underscore-php" : "dev-master",
         "elasticsearch/elasticsearch": "^7.0",
         "mnapoli/php-di": "~4.0",
