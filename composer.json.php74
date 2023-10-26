@@ -33,6 +33,7 @@
         "pimple/pimple": "~3.0",
         "kint-php/kint": "~3.3",
 
-        "authorizenet/authorizenet": ">=2.0.0"
+        "authorizenet/authorizenet": ">=2.0.0",
+        "sentry/sdk": "^3.5"
     }
 }
