@@ -9,10 +9,10 @@
     ],
     "require": {
         "twig/twig": "1.*",
-        "mobiledetect/mobiledetectlib": "dev-master",
+        "mobiledetect/mobiledetectlib": "^3.7",
         "facebook/graph-sdk" : "*",
         "basho/riak": "1.4.*",
-        "google/apiclient": "dev-master",
+        "google/apiclient": "dev-main",
         "anahkiasen/underscore-php" : "dev-master",
         "elasticsearch/elasticsearch": "^7.0",
         "mnapoli/php-di": "~4.0",
@@ -33,6 +33,7 @@
         "pimple/pimple": "~3.0",
         "kint-php/kint": "~3.3",
 
-        "authorizenet/authorizenet": ">=2.0.0"
+        "authorizenet/authorizenet": ">=2.0.0",
+        "sentry/sdk": "^3.5"
     }
 }
