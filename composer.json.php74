@@ -21,7 +21,7 @@
         "stripe/stripe-php": "^3.6",
         "goat1000/svggraph": "3.*",
         "danielstjules/stringy": "~2.3",
-        "mongodb/mongodb": "^1.0.0",
+        "mongodb/mongodb": "~1.13",
         "symfony/dom-crawler": "v3.3.2",
         "symfony/css-selector": "v3.3.2",
         "symfony/polyfill-mbstring": "v1.4.0",
