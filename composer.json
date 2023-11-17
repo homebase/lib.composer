@@ -12,7 +12,7 @@
         "mobiledetect/mobiledetectlib": "3.*",
         "basho/riak": "1.4.*",
         "google/apiclient": "dev-main",
-        "anahkiasen/underscore-php" : "dev-main",
+        "anahkiasen/underscore-php" : "^2.0",
         "elasticsearch/elasticsearch": "^7.0",
         "mnapoli/php-di": "~4.0",
         "psr/log": "1.0.*@dev",
@@ -20,7 +20,7 @@
         "stripe/stripe-php": "^3.6",
         "goat1000/svggraph": "3.*",
         "danielstjules/stringy": "~2.3",
-        "mongodb/mongodb": "~1.13",
+        "mongodb/mongodb": "~1.13.0",
         "lcobucci/jwt": "3.1.0",
         "square/connect": "*",
 
