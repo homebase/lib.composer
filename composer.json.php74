@@ -16,12 +16,12 @@
         "anahkiasen/underscore-php" : "dev-master",
         "elasticsearch/elasticsearch": "^7.0",
         "mnapoli/php-di": "~4.0",
-        "psr/log": "1.1.4",
+        "psr/log": "1.0.*@dev",
         "symfony/var-dumper": "^2.7",
         "stripe/stripe-php": "^3.6",
         "goat1000/svggraph": "3.*",
         "danielstjules/stringy": "~2.3",
-        "mongodb/mongodb": "1.17",
+        "mongodb/mongodb": "1.13",
         "symfony/dom-crawler": "v3.3.2",
         "symfony/css-selector": "v3.3.2",
         "symfony/polyfill-mbstring": "v1.4.0",
@@ -34,6 +34,7 @@
         "kint-php/kint": "~3.3",
 
         "authorizenet/authorizenet": ">=2.0.0",
-        "sentry/sdk": "^3.5"
+        "sentry/sdk": "^3.5",
+        "markroland/converge-api-php": "^0.4"
     }
 }
