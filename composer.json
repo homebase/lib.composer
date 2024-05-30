@@ -33,7 +33,13 @@
         "authorizenet/authorizenet": ">=2.0.0",
         "php-webdriver/webdriver": "dev-main",
         "markroland/converge-api-php": "^1.2",
-        "sentry/sdk": "^3.5"
+        "sentry/sdk": "^3.5",
+        "kelvinzer0/curl-impersonate-php": "^3.2"
 
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
     }
 }
