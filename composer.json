@@ -34,8 +34,7 @@
         "php-webdriver/webdriver": "dev-main",
         "markroland/converge-api-php": "^1.2",
         "sentry/sdk": "^3.5",
-        "kelvinzer0/curl-impersonate-php": "^3.2"
-
+        "spatie/pdf-to-text": "^1.52"
     },
     "config": {
         "allow-plugins": {
